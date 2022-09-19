@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-container">
+        <div class="form-container text-small">
+          <h1>Welcome back</h1>
+          <p class="text-muted">Welcome back! Please enter your details</p>
+
+          <form action="">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" />
+            </div>
+            <div id="remember-container" class="form-group">
+              <label for="remember"
+                ><input type="checkbox" id="remember" name="remember" />Remember
+                for 30 days</label
+              >
+              <a href="" class="text-dark">Forgot password</a>
+            </div>
+
+            <div class="form-group">
+              <button type="submit" id="submit-btn">Sign in</button>
+            </div>
+            <div class="form-group">
+              <button id="google-btn" type="button">
+                <img
+                  src="/assets/img/icons8-google-32.png"
+                  alt="Google icon"
+                  width="24"
+                />
+                <span> Sign in with Google </span>
+              </button>
+            </div>
+            <div class="form-group text-center">
+              <p>
+                Don't have an account?
+                <a href="" class="text-dark">
+                  <strong>Sign up for free</strong>
+                </a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="image-container">
+        <!-- <h2>Image container</h2> -->
+        <div class="card">
+          <div class="card-background"></div>
+          <div class="card-content">
+            <p>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur vel animi culpa amet vero nisi assumasdadaa."
+            </p>
+            <div class="card-data-container">
+              <div id="card-data">
+                <p>Andi Lane</p>
+                <span>Founder, Catalog</span>
+                <span>Web Design Agency</span>
+              </div>
+              <div id="card-icons">
+                <p id="star-icons">
+                  <span class="material-icons md-15">star</span>
+                  <span class="material-icons md-15">star</span>
+                  <span class="material-icons md-15">star</span>
+                  <span class="material-icons md-15">star</span>
+                  <span class="material-icons md-15">star</span>
+                </p>
+
+                <p class="icons">
+                  <span
+                    class="material-symbols-outlined md-48 pr-4 font-lighter"
+                  >
+                    arrow_circle_left
+                  </span>
+                  <span
+                    class="material-symbols-outlined md-48 pl-4 font-lighter"
+                  >
+                    arrow_circle_right
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
